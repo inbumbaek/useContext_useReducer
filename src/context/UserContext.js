@@ -9,5 +9,7 @@ export const UserProvider = (props) => {
             userList,
             setUserList
         }}>
+            {props.children}
+        </userContext.Provider>
     )
 }
